@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">project_uas</string>
+    <string name="judul">Explore Pku</string>
+    <string name="hotel">Hotel</string>
+    <string name="kuliner">Kuliner</string>
+    <string name="wisata">Wisata</string>
 </resources>
