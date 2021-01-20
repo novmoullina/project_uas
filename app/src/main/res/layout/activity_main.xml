@@ -1,18 +1,88 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#495CCD"
     tools:context=".MainActivity">
 
+    <ImageView
+        android:layout_width="448dp"
+        android:layout_height="319dp"
+        android:background="@drawable/bg"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-5dp"
+        />
+
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
+        android:id="@+id/txtjudul"
+        android:layout_width="282dp"
+        android:layout_height="73dp"
+        android:layout_marginTop="216dp"
+        android:fontFamily="@font/bangers"
+        android:text="Explore Pku"
+        android:textAlignment="center"
+        android:textColor="#FFEB3B"
+        android:textColorHighlight="@color/black"
+        android:textSize="45sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/kuliner"
+        android:layout_width="165dp"
+        android:layout_height="99dp"
+        android:layout_marginBottom="320dp"
+        android:backgroundTint="#FFC107"
+        android:text="Wisata Kuliner"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:icon="@drawable/restaurant"
+        app:iconPadding="20dp"
+        app:iconTint="#3949AB"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/tempat"
+        android:layout_width="165dp"
+        android:layout_height="99dp"
+        android:backgroundTint="#FFC107"
+        android:text="Tempat Wisata"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:icon="@drawable/calendar"
+        app:iconTint="#3949AB"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.479"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.74" />
+
+    <Button
+        android:id="@+id/hotel"
+        android:layout_width="165dp"
+        android:layout_height="99dp"
+        android:backgroundTint="#FFC107"
+        android:text="Hotel"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:icon="@drawable/hotel"
+        app:iconPadding="12dp"
+        app:iconTint="#3949AB"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.48"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.929" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
